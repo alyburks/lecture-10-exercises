@@ -9,3 +9,11 @@ Edit this Markdown document below to display:
 - An image of the band (which you should download from the web, and display)
 
 ----
+My favorite band is J cole. His songs are:
+- jksdgfsd
+- jdsgfhkjsdfgh
+- dsjkfgsdjkfg
+- 
+
+heres a photo of them,:
+ ![tbt] (tbt.jpg)
