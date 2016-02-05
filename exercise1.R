@@ -13,11 +13,11 @@ fav_artist <- gsub(" ", "+" ,fav_artist)
 
 # Construct a seach query to hit the api.
 # See documentation/examples: http://developer.echonest.com/docs/v4/artist.html#biographies
-data_query <- paste0("http://developer.echonest.com/docs/v4/artist.html#biographies", "api_key=", api_key, "&name=", fav_artist)
+data_query <- paste0("http://developer.echonest.com/docs/v4/artist.html#biographies", "api_key=", api_key, "&result=1")
 
 
 # Use fromJSON to retrieve the results
 data_query_df <- fromJSON(data_query)
 
 # Get the text of the (first) biography available
-biobraphy <- data_queary_df$biography
+biobraphy <- data_queary_df$biography$text
